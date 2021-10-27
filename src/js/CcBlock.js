@@ -1,0 +1,3 @@
+class CcBlock {
+  constructor() {}
+}

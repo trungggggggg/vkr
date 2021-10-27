@@ -1,0 +1,11 @@
+1. up to TACCR0
+  đếm từ 0 đến taccr0, sau đó:
+    + taccr0: ccifg = 1
+    + 0: taifg = 1
+  nếu tar > new TACCR0 => 0
+  else continues
+
+2. up to 0ffffh
+  + 0: taifg = 1
+  
+3. up/down TACCR0

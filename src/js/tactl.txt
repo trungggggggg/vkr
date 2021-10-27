@@ -1,0 +1,22 @@
+1. TACLR = 1
+  TAR = 0, IDx = 00, MCx = 00.
+
+2. MCx = 00 stop
+   MCx = 10 up to TACCR0
+   MCx = 01 up to 0ffffh
+   MCx = 11 up to TACCR0 and then down 0000h
+
+3. TASSELx = 00 TACLK
+   TASSELx = 10 ACLK
+   TASSELx = 01 SMCLK
+   TASSELx = 11 inverted TACLK
+
+4. IDx = 00 /1
+   IDx = 10 /2
+   IDx = 01 /4
+   IDx = 11 /8
+
+5. TAIE = 0 disable interrupt
+   TAIE = 1 enable interrupt
+
+6. TAIFG - flag interrupt
